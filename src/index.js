@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     console.log("submitted");
     createTask();
-  }
+  })
 
   function createTask() {
     let li = document.createElement("li");
